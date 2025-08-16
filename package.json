@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Сравнение и выбор шрифтов",
   "type": "module",
+  "homepage": "https://taliildar.anmitali.kz/Fontopia/",
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
-    "preview": "npx vite preview"
+    "preview": "npx vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "fonts",
@@ -30,6 +33,7 @@
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "^5.9.2",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "gh-pages": "^6.1.1"
   }
 }
