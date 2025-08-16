@@ -1,0 +1,35 @@
+{
+  "name": "fontopia",
+  "version": "1.0.0",
+  "description": "Сравнение и выбор шрифтов",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "keywords": [
+    "fonts",
+    "typography",
+    "preview",
+    "react",
+    "typescript"
+  ],
+  "author": "AnmiTaliDev",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}
